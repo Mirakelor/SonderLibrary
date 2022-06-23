@@ -89,7 +89,7 @@ font:
 iconfont: "1832207_igi8uaupcus"
 
 menu:
-  主页: / || home
+  home: / || home
   文章:
     default: / || feather
     归档: /archives/ || list-alt
