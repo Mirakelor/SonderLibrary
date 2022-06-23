@@ -1,3 +1,5 @@
-![Hexo Logo](https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg)
+# Starry Library
 
-This is a online project based on Vercel and Hexo.
+A Online Library Based On Hexo
+
+Made By Mirakelor :)
