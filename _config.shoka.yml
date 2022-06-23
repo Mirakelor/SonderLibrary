@@ -95,7 +95,7 @@ menu:
   #   default: / || feather
   #   archives: /archives/ || list-alt
   #   categories: /categories/ || th
-  #   tags: /tags/ || tags
+  tags: /tags/ || tags
   # friends: /friends/ || heart
   # links: /links/ || magic
 
