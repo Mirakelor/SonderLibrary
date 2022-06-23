@@ -89,12 +89,12 @@ font:
 iconfont: "1832207_igi8uaupcus"
 
 menu:
-  home: / || home
-  posts:
+  主页: / || home
+  文章:
     default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    tags: /tags/ || tags
+    归档: /archives/ || list-alt
+    分类: /categories/ || th
+    标签: /tags/ || tags
   友人帐: /friends/ || heart
   关于: /about/ || magic
   # links: /links/ || user
