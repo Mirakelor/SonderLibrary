@@ -56,7 +56,6 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  - Amber: amber
 tag_map:
 
 # Date / Time format
