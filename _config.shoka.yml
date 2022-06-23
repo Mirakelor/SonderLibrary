@@ -90,14 +90,14 @@ iconfont: "1832207_igi8uaupcus"
 
 menu:
   home: / || home
-  # about: /about/ || user
-  # posts:
-  #   default: / || feather
-  #   archives: /archives/ || list-alt
-  #   categories: /categories/ || th
-  tags: /tags/ || tags
-  # friends: /friends/ || heart
-  # links: /links/ || magic
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  友人帐: /friends/ || heart
+  关于: /about/ || magic
+  # links: /links/ || user
 
 # Social Links
 # Usage: `Key: permalink || icon || color`
