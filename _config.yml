@@ -56,7 +56,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  - Tretår: tretar
+  - Amber: amber
 tag_map:
 
 # Date / Time format
