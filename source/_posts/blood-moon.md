@@ -1,7 +1,8 @@
 ---
 title: 血月
 date: 2022/6/28 10:16:58
-tag: 
+categories: Cthulhu
+tag:
 - 惊悚
 - 克苏鲁
 ---
