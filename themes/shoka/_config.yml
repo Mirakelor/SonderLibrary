@@ -216,7 +216,7 @@ valine:
 # Twikoo
 # For more information: https://twikoo.js.org
 twikoo:
-  enable: false
+  enable: true
   envId: https://ankare.vercel.app
   lang: en-US
 
