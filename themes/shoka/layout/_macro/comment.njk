@@ -1,7 +1,7 @@
 {% macro render() %}
-{%- if page.comment and theme.valine.enable !== false %}
+{%- if ( page.comment !== false ) and ( theme.valine.enable !== false ) %}
   <div class="wrap" id="comments"></div>
-{%- elif page.comment and theme.twikoo.enable !== false %}
+{%- elif ( page.comment !== false ) and ( theme.twikoo.enable !== false ) %}
   <div id="tcomment"></div>
   <script src="https://cdn.jsdelivr.net/npm/twikoo@1.5.11/dist/twikoo.all.min.js"></script>
   <script>
