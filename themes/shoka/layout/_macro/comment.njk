@@ -3,5 +3,6 @@
   <div class="wrap" id="comments"></div>
 {%- elif ( page.comment !== false ) and ( theme.twikoo.enable !== false ) %}
   <div id="tcomment"></div>
+  <button onclick="twikoo.init({envId: '{{ theme.twikoo.envId }}', el: '#tcomment', lang: '{{ theme.twikoo.lang }}'})">Comments</button>
 {%- endif %}
 {% endmacro %}

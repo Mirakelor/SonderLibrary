@@ -186,7 +186,7 @@ creative_commons:
 # For more information: https://github.com/amehime/MiniValine
 # If you enable Valine and Twikoo at the same time, we will use Valine
 valine:
-  enable: false
+  enable: true
   appId: oalbYOloeRdnmpo2izUCF3oB-MdYXbMMI #Your_appId
   appKey: 4tpMd47mWKxrhQSQMx61KADQ #Your_appkey
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
@@ -216,7 +216,7 @@ valine:
 # Twikoo
 # For more information: https://twikoo.js.org
 twikoo:
-  enable: true
+  enable: false
   envId: https://ankare.vercel.app
   lang: en-US
 
@@ -297,7 +297,6 @@ vendors:
     comment: css/comment.css
     fancybox: combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css
   js:
-    twikoo: npm/twikoo@1.5.4/dist/twikoo.all.min.js
     pace: npm/pace-js@1.0.2/pace.min.js
     pjax: npm/pjax@0.2.8/pjax.min.js
     fetch: npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js
