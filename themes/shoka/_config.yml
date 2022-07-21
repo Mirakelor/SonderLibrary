@@ -186,7 +186,7 @@ creative_commons:
 # For more information: https://github.com/amehime/MiniValine
 # If you enable Valine and Twikoo at the same time, we will use Valine
 valine:
-  enable: false
+  enable: true
   appId: oalbYOloeRdnmpo2izUCF3oB-MdYXbMMI #Your_appId
   appKey: 4tpMd47mWKxrhQSQMx61KADQ #Your_appkey
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
