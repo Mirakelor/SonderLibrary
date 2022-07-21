@@ -132,7 +132,7 @@ widgets:
   # if true, will show random posts
   random_posts: false
   # if true, will show recent comments
-  recent_comments: false
+  recent_comments: false # Only for Valine
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
@@ -184,6 +184,7 @@ creative_commons:
 # Comments
 # Valine
 # For more information: https://github.com/amehime/MiniValine
+# If you enable Valine and Twikoo at the same time, we will use Valine
 valine:
   enable: false
   appId: oalbYOloeRdnmpo2izUCF3oB-MdYXbMMI #Your_appId
@@ -211,6 +212,13 @@ valine:
     friend:
       # - hash of friend@email.com
       # - hash of friend2@email.com
+
+# Twikoo
+# For more information: https://twikoo.js.org
+twikoo:
+  enable: false
+  envId: https://ankare.vercel.app
+  lang: en-US
 
 # bgm
 audio:
