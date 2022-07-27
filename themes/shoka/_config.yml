@@ -193,7 +193,7 @@ valine:
   lang: en
   visitor: true # Article reading statistic
   NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: https://oalbyolo.api.lncldglobal.com # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: https://leancloud.sonder.eu.org # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true
   tagMeta:
     visitor: 旅行者
