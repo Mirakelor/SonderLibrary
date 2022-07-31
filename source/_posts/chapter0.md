@@ -1,10 +1,16 @@
 ---
-title: Chapter 0
+abbrlink: ''
+categories:
+- Cthulhu
 date: 2022/7/28 9:44:53
-categories: Cthulhu
 tag:
 - 惊悚
 - 克苏鲁
 - 西幻
+tags: []
+title: Chapter 0
+updated: '2022-07-31 08:35:41'
 ---
 当远方城堡空灵的钟声传来时，小丑正蹦蹦跳跳地往城堡里赶。
+
+城堡外的护城河是血红血红的，河两边长满了荆棘，暗红色的玫瑰星星点点散在荆棘中。
