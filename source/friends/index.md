@@ -11,5 +11,5 @@ updated: '2022-08-08 09:02:31'
   url: https://eritque-arcus.tech/
   desc: Eritque arcus‘s blog
   image: https://eritque-arcus.tech/images/avatar.png
-  color: #9370DB
+  color: #800000
 {% endlinks %}
