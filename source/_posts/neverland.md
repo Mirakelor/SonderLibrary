@@ -1,9 +1,11 @@
 ---
 title: Neverland
 date: 2022/12/23 14:41:45
+categories: Amber
+tag: 童话
 ---
 
->> 童真一定是世界上最美好的东西了。
+> 童真一定是世界上最美好的东西了。
 
 黄昏。
 
@@ -25,5 +27,5 @@ date: 2022/12/23 14:41:45
 
 只在偏僻的树林一角，巨树的阴影下蜷缩着一块很小很小的墓碑。
 
->> R.I.P
->> Here lies Peter Pan.
+> R.I.P
+> Here lies Peter Pan.
