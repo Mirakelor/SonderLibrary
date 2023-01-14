@@ -11,9 +11,7 @@ updated: 2022-08-24 10:05:32
   desc: 辉星皓夜苍千顷，此宵风醉月舞萤
   image: https://snow.js.org/img/share.jpg
   color: black
-{% endlinks %}
-
-{% links %}
+  
 - site: 瑾年MckinleyLu
   owner: 瑾年
   url: https://www.mckinleylu.com
