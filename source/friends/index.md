@@ -19,7 +19,7 @@ updated: 2022-08-24 10:05:32
   image: https://www.mckinleylu.com/favicon.ico
   color: yellow
   
- - site: Anubis的小窝
+- site: Anubis的小窝
   owner: Anubis
   url: https://anubis.cafe/
   desc: 虽然是个整天摆烂的废物，但是欢迎来探讨问题哈！
