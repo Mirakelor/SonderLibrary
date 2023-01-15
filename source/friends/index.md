@@ -10,14 +10,14 @@ updated: 2022-08-24 10:05:32
   url: https://snow.js.org/
   desc: 辉星皓夜苍千顷，此宵风醉月舞萤
   image: https://snow.js.org/img/share.jpg
-  color: "＃00bfff"
+  color: "#54b6e9"
   
 - site: 瑾年MckinleyLu
   owner: 瑾年
   url: https://www.mckinleylu.com/
   desc: 桃李不言,下自成蹊
   image: https://www.mckinleylu.com/favicon.ico
-  color: "＃ffa07a"
+  color: "#ffa07a"
   
 - site: Anubis的小窝
   owner: Anubis
