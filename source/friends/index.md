@@ -32,4 +32,11 @@ updated: 2022-08-24 10:05:32
   desc: 花开成景，花落成诗 
   image: https://www.timelessq.com/static/avatar.jpg
   color: "#9d5b8b"
+  
+- site: Morii's Blog
+  owner: Morii
+  url: https://blog.morii.club
+  desc: 上士无争,下士好争
+  image: https://i.imgtg.com/2022/12/03/DBqZb.png
+  color: "#556b2f"
 {% endlinks %}
