@@ -10,6 +10,7 @@ tags:
 - 侦探
 - Detective
 - Novel
+- The Ink Black Heart
 title: The Ink Black Heart -- PART 0
 ---
 > 你的目光为何总在我身上驻足，  
