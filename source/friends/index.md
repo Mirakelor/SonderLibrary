@@ -59,5 +59,25 @@ updated: 2022-08-24 10:05:32
   url: https://nongyanxia.cn
   desc: 一个憨憨 💕
   image: https://image.nongyanxia.cn/images/Qo8l.jpg
-  color: "#fffacd"
+  color: grey
 {% endlinks %}
+
+# (๑╹◡╹)ﾉ"""
+欢迎交换友链\(@^0^@)/  
+```YAML
+- site: Mirrorors
+  owner: Mirakelor
+  url: https://monocle.js.org/
+  desc: 镜花水月
+  image: https://monocle.js.org/images/%E5%A4%B4%E5%83%8F%20(19).jpg
+  color: "#fe9600"
+  
+ 你也需要给我这些信息~
+ 
+- site: #网站的名字
+  owner: #您的名字
+  url: #您的网址
+  desc: #简短描述
+  image: #一张图片
+  color: #方块颜色
+```
