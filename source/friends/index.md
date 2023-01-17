@@ -64,7 +64,7 @@ updated: 2022-08-24 10:05:32
 
 # (๑╹◡╹)ﾉ"""
 欢迎交换友链\(@^0^@)/  
-```YAML
+```yml
 - site: Mirrorors
   owner: Mirakelor
   url: https://monocle.js.org/
