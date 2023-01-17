@@ -92,7 +92,7 @@ menu:
   home: / || home
   文章:
     default: / || feather
-    归档: /archives/ || list-alt
+    时间轴: /archives/ || list-alt
     分类: /categories/ || th
     标签: /tags/ || tags
   友人帐: /friends/ || heart
