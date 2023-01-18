@@ -1,7 +1,7 @@
 ---
 title: 城堡
 date: 2022/12/23 19:00:31
-categories: HeyFriday
+categories: AI
 tag:
 - 散文
 - AI
