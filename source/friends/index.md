@@ -19,13 +19,6 @@ updated: 2022-08-24 10:05:32
   image: https://www.timelessq.com/static/avatar.jpg
   color: "#9d5b8b"
   
-- site: Morii's Blog
-  owner: Morii
-  url: https://blog.morii.club
-  desc: 上士无争,下士好争
-  image: https://i.imgtg.com/2022/12/03/DBqZb.png
-  color: "#556b2f"
-  
 - site: 星空未屿
   owner: 星空未屿
   url: https://www.clrxx.com/
@@ -33,12 +26,6 @@ updated: 2022-08-24 10:05:32
   image: https://open.cdn.clrxx.com/image/avatar.png
   color: "#ee9ea8"
 {% endlinks %}
-
-# 失联中~
-> 暂时还没有😀，希望永远也不会有。
-
-# 伙伴连接中~
-{% links %}
   
 - site: Anubis的小窝
   owner: Anubis
@@ -46,6 +33,19 @@ updated: 2022-08-24 10:05:32
   desc: 虽然是个整天摆烂的废物，但是欢迎来探讨问题哈！
   image: https://anubis.cafe/medias/avatar.webp
   color: pink
+
+# 失联中~
+> 竟然那么快就有第一个了😭🤣😅
+  
+- site: Morii's Blog
+  owner: Morii
+  url: https://blog.morii.club
+  desc: 上士无争,下士好争
+  image: https://i.imgtg.com/2022/12/03/DBqZb.png
+  color: "#556b2f"
+
+# 伙伴连接中~
+{% links %}
   
 - site: 瑾年MckinleyLu
   owner: 瑾年
