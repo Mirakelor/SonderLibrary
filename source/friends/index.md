@@ -19,6 +19,13 @@ updated: 2022-08-24 10:05:32
   image: https://www.timelessq.com/static/avatar.jpg
   color: "#9d5b8b"
   
+- site: 夜路
+  owner: 夜路
+  url: https://emmm.space
+  desc: 上士无争,下士好争
+  image: https://img.beeble.eu.org/202301/moriiblog.png
+  color: "#556b2f"
+  
 - site: 星空未屿
   owner: 星空未屿
   url: https://www.clrxx.com/
@@ -35,16 +42,7 @@ updated: 2022-08-24 10:05:32
 {% endlinks %}
 
 # 失联中~
-> 竟然那么快就有第一个了😭🤣😅
-  
-{% links %}
-- site: Morii's Blog
-  owner: Morii
-  url: https://blog.morii.club
-  desc: 上士无争,下士好争
-  image: https://i.imgtg.com/2022/12/03/DBqZb.png
-  color: "#556b2f"
-{% endlinks %}
+> 希望永远也不要有(*/ω＼*)
 
 # 伙伴连接中~
 {% links %}
