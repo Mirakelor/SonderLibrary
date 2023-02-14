@@ -53,15 +53,8 @@ updated: 2022-08-24 10:05:32
 > 希望永远也不要有(*/ω＼*)
 
 # 伙伴连接中~
-{% links %}
-  
-- site: 瑾年MckinleyLu
-  owner: 瑾年
-  url: https://www.mckinleylu.com/
-  desc: 桃李不言,下自成蹊
-  image: https://www.mckinleylu.com/favicon.ico
-  color: "#ffa07a"
-{% endlinks %}
+
+空空如也～
 
 # (๑╹◡╹)ﾉ"""
 欢迎交换友链\(@^0^@)/  
