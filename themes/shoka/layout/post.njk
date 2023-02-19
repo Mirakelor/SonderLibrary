@@ -38,6 +38,7 @@
   {{ partial('_partials/post/nav.njk', {post: page}) }}
   {{ comment.render() }}
 {% endblock %}
+<div id="webmentions"></div>
 
 {% block sidebar %}
 {{ sidebar.render(true) }}
