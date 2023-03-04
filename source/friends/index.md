@@ -42,9 +42,9 @@ updated: 2022-08-24 10:05:32
   
 - site: 浓烟下与荒野
   owner: 浓烟下与荒野
-  url: https://nongyanxia.cn
+  url: https://nongyanxia.com
   desc: 一个憨憨 💕
-  image: https://image.nongyanxia.cn/images/Qo8l.jpg
+  image: https://nongyanxia.com/avatar.jpg
   color: grey
   
 {% endlinks %}
