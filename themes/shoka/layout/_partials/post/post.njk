@@ -1,7 +1,7 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
-  <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
+  <link itemprop="mainEntityOfPage" class="u-url" href="{{ post.permalink }}">
 
-  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person" rel="author" class="p-author">
     <meta itemprop="image" content="{{ url_for(theme.statics + theme.images + '/' + theme.sidebar.avatar) }}">
     <meta itemprop="name" content="{{ author }}">
     <meta itemprop="description" content="{{ subtitle }}, {{ description }}">
