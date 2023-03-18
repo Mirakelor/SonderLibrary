@@ -1,4 +1,9 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
+  <a rel="author" class="p-author h-card" href="{{ page.path }}" style="display: none">Mirakelor</a>
+  <a class="u-url" href="{{ page.path }}" style:"display: none">…</a>
+  <a rel="syndication" class="u-syndication" href="{{ page.path }}" style:"display: none">…</a>
+  <a class="p-category" href="{{ page.path }}" style:"display: none">{{ page.categories }}</a>
+  <time class="dt-published" datetime="{{ page.date }}" style:"display: none">The Date</time>
   <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -8,10 +13,10 @@
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" class="e-content p-name" content="{{ title }}">
+    <meta itemprop="name" class="p-name" content="{{ title }}">
   </span>
 
-  <div class="body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
+  <div class="e-content body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
     {# Gallery support #}
     {%- if post.photos and post.photos.length %}
       <div class="gallery" itemscope itemtype="http://schema.org/ImageGallery">
