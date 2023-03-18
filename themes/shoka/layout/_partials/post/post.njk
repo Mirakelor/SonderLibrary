@@ -1,4 +1,4 @@
-<article itemscope itemtype="http://schema.org/Article" class="post block" lang="{{ post.lang or config.language }}">
+<article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
   <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -8,7 +8,7 @@
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="name" class="e-content p-name" content="{{ title }}">
   </span>
 
   <div class="body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
