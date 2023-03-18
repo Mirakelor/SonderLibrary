@@ -47,6 +47,12 @@ updated: 2022-08-24 10:05:32
   image: https://nongyanxia.com/avatar.jpg
   color: grey
   
+- site: 月落星沉
+  owner: 笙熙
+  url: https://asxez.github.io/
+  desc: 斯人如彩虹，遇上方知有
+  image: https://i.328888.xyz/2023/03/08/SlJ5X.jpeg
+  color: "#e9546b"
 {% endlinks %}
 
 # 失联中~
