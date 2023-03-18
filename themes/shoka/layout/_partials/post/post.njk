@@ -1,9 +1,4 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
-  <a rel="author" class="p-author h-card" href="{{ page.permalink }}" style="display: none">Mirakelor</a>
-  <a class="u-url" href="{{ page.permalink }}" style:"display: none">…</a>
-  <a rel="syndication" class="u-syndication" href="{{ page.permalink }}" style:"display: none">…</a>
-  <a class="p-category" href="{{ page.permalink }}" style:"display: none">{{ page.categories }}…</a>
-  <time class="dt-published" datetime="{{ moment(item.date).format() }}" style:"display: none">The Date</time>
   <link itemprop="mainEntityOfPage" href="{{ post.permalink }}">
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
