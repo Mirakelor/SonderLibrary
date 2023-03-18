@@ -1,14 +1,14 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
   <link itemprop="mainEntityOfPage" class="u-url" href="{{ post.permalink }}">
 
-  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person" rel="author" class="p-author">
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="{{ url_for(theme.statics + theme.images + '/' + theme.sidebar.avatar) }}">
     <meta itemprop="name" content="{{ author }}">
     <meta itemprop="description" content="{{ subtitle }}, {{ description }}">
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" class="p-name" content="{{ title }}">
+    <meta itemprop="name" content="{{ title }}">
   </span>
 
   <div class="e-content body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
