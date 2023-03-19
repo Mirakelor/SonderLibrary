@@ -1,7 +1,12 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
   <link itemprop="mainEntityOfPage" class="u-url" href="{{ post.permalink }}">
   <time hidden itemprop="dateCreated datePublished" class="dt-published" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
-  <a hidden rel="author" class="p-author h-card" href="https://monocle.js.org">Mirakelor</a>
+  <div hidden class="h-card">
+    <a href="http://monocle.js.org/" class="u-url u-uid" rel="me">Mirakelor</a>
+    <img class="u-photo" src="/images/%E5%A4%B4%E5%83%8F%20(19).jpg" alt="帅气的Mirakelor" />
+    <p class="p-note">拨动时光的指针~</p>
+  </div>
+  <p hidden class="p-name">{{ title }}</p>
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="{{ url_for(theme.statics + theme.images + '/' + theme.sidebar.avatar) }}">
@@ -10,7 +15,7 @@
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name p-name" content="{{ title }}">
+    <meta itemprop="name" content="{{ title }}">
   </span>
 
   <div class="e-content body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
