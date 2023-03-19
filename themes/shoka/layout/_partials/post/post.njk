@@ -1,5 +1,7 @@
 <article itemscope itemtype="http://schema.org/Article" class="post block h-entry" lang="{{ post.lang or config.language }}">
   <link itemprop="mainEntityOfPage" class="u-url" href="{{ post.permalink }}">
+  <time hidden itemprop="dateCreated datePublished" class="dt-published" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
+  <a hidden rel="author" class="p-author h-card" href="https://monocle.js.org">Mirakelor</a>
 
   <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="image" content="{{ url_for(theme.statics + theme.images + '/' + theme.sidebar.avatar) }}">
@@ -8,7 +10,7 @@
   </span>
 
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="{{ title }}">
+    <meta itemprop="name p-name" content="{{ title }}">
   </span>
 
   <div class="e-content body md{%- if post.direction and post.direction.toLowerCase() === 'rtl' %} rtl{%- endif %}" itemprop="articleBody">
