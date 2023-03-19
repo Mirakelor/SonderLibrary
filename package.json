@@ -18,12 +18,12 @@
     "hexo-renderer-multi-markdown-it": "^0.1.5",
     "hexo-algoliasearch": "^1.0.0",
     "hexo-feed": "^1.1.0",
-    "hexo-symbols-count-time": "^0.7.1"
+    "hexo-symbols-count-time": "^0.7.1",
     "@remy/webmention": "^1.4.5"
   },
   "scripts": {
     "dev": "hexo server -p $PORT",
-    "build": "hexo generate"
+    "build": "hexo generate",
     "postbuild": "webmention public/rss.xml --limit 1 --send"
   }
 }
