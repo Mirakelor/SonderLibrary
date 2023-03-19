@@ -8,7 +8,7 @@
     {%- if full %}
     <span class="text">{{ __('post.posted') }}</span>
     {%- endif %}
-    <time itemprop="dateCreated datePublished" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
+    <time itemprop="dateCreated datePublished" class="dt-published" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
   </span>
   {%- if theme.post.count %}
   <span class="item" title="{{ __('symbols_count_time.count') }}">
