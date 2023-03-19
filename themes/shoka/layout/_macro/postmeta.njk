@@ -1,5 +1,5 @@
 {% macro render(item, full = false) %}
-<div class="meta h-entry">
+<div class="meta">
   {%- set create_title = __('post.created') + __('symbol.colon') + full_date(item.date) %}
   <span class="item" title="{{ create_title }}">
     <span class="icon">
@@ -8,7 +8,7 @@
     {%- if full %}
     <span class="text">{{ __('post.posted') }}</span>
     {%- endif %}
-    <time itemprop="dateCreated datePublished" class="dt-published" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
+    <time itemprop="dateCreated datePublished" datetime="{{ moment(item.date).format() }}">{{ date(item.date) }}</time>
   </span>
   {%- if theme.post.count %}
   <span class="item" title="{{ __('symbols_count_time.count') }}">
