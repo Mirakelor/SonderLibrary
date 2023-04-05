@@ -16,6 +16,4 @@ https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/
 
 [Webmention Demo](https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/)
 
-https://kaix.in/0001/webmention/
-
-TODO
+https://kaix.in/0001/webmention/    
