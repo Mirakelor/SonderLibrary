@@ -12,7 +12,8 @@ title: Shoka:+Webmention
 [IndieWeb, Webmentions](https://kwaa.dev/indieweb) By 藍+85CD。  
 [Webmention](https://kaix.in/0001/webmention/) By dimlau。  
 
-
-
+{% raw %}
+<blockquote><p>Thanks❤️🌹😋 For<br><a href="https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/" rel="noopener external nofollow noreferrer" target="_blank" class="exturl" title="Webmention Demo">Webmention Demo</a> By WhyYouAre。<br><a href="https://kwaa.dev/indieweb" rel="noopener external nofollow noreferrer" target="_blank" class="exturl" title="IndieWeb, Webmentions">IndieWeb, Webmentions</a> By 藍 + 85CD。<br><a href="https://kaix.in/0001/webmention/" rel="noopener external nofollow noreferrer" target="_blank" class="exturl" title="Webmention">Webmention</a> By dimlau。</p></blockquote>
+{% endraw %}
 
 TODO
