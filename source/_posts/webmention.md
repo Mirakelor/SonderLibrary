@@ -7,8 +7,12 @@ tags:
 - Webmention
 title: Shoka:+Webmention
 ---
-感谢 [藍](https://kwaa.dev/indieweb)。
+> Thanks❤️🌹😋 For   
+[Webmention Demo](https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/) By WhyYouAre。  
+[IndieWeb, Webmentions](https://kwaa.dev/indieweb) By 藍+85CD。  
+[Webmention](https://kaix.in/0001/webmention/) By dimlau。  
+
+
+
 
 TODO
-
-https://webmention.rocks/test/1
