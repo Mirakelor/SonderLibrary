@@ -21,3 +21,5 @@ Thanks❤️🌹😋 For
 没事儿没事儿随便了，就改成这样吧！反正现在用Webmention的人不多，丑一点就丑一点吧无所谓了。
 
 这个坑就算是填好了😋
+
+测试：https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/
