@@ -11,6 +11,7 @@ hexo.extend.filter.register('after_post_render', data => {
   const url = require('url');
   const siteHost = url.parse(config.url).hostname || config.url;
   data.content = data.content.replace(/<a[^>]* href="([^"]+)"[^>]*>([^<]*)<\/a>/img, (match, href, html) => {
+    return match;
     // Exit if the href attribute doesn't exists.
     if (!href) return match;
 
