@@ -50,6 +50,7 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
 }
 
 hexo.extend.helper.register('_url', function(path, text, options = {}) {
+  return;
   if(!path)
     return
 
@@ -63,7 +64,7 @@ hexo.extend.helper.register('_url', function(path, text, options = {}) {
   let attrs = { href: url_for.call(this, path) };
 
   // If `exturl` enabled, set spanned links only on external links.
-/*  if (theme.exturl && data.protocol && data.hostname !== siteHost) {
+  if (theme.exturl && data.protocol && data.hostname !== siteHost) {
     tag = 'span';
     exturl = 'exturl';
     const encoded = Buffer.from(path).toString('base64');
@@ -73,13 +74,13 @@ hexo.extend.helper.register('_url', function(path, text, options = {}) {
     };
   }
 
-  for (let key in options) { */
+  for (let key in options) {
 
     /**
      * If option have `class` attribute, add it to
      * 'exturl' class if `exturl` option enabled.
      */
-/*    if (exturl !== '' && key === 'class') {
+    if (exturl !== '' && key === 'class') {
       attrs[key] += ' ' + options[key];
     } else {
       attrs[key] = options[key];
@@ -102,7 +103,7 @@ hexo.extend.helper.register('_url', function(path, text, options = {}) {
       // Remove rel attributes for `exturl` in main menu.
       attrs.rel = null;
     }
-  } */
+  } 
 
   return htmlTag(tag, attrs, decodeURI(text), false);
 });
