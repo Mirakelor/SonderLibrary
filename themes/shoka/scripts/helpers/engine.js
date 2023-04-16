@@ -50,7 +50,6 @@ const randomBG = function(count = 1, image_server = null, image_list = []) {
 }
 
 hexo.extend.helper.register('_url', function(path, text, options = {}) {
-  return;
   if(!path)
     return
 
