@@ -11,7 +11,6 @@ hexo.extend.filter.register('after_post_render', data => {
   const url = require('url');
   const siteHost = url.parse(config.url).hostname || config.url;
   data.content = data.content.replace(/<a[^>]* href="([^"]+)"[^>]*>([^<]*)<\/a>/img, (match, href, html) => {
-    return match;
     // Exit if the href attribute doesn't exists.
     if (!href) return match;
 
@@ -19,7 +18,7 @@ hexo.extend.filter.register('after_post_render', data => {
     let link = url.parse(href);
     if (!link.protocol || link.hostname === siteHost) return match;
 
-    return `<span class="exturl" data-url="${Buffer.from(href).toString('base64')}">${html}</span>`;
+    return `<a class="exturl" href="${href}">${html}</a>`;
   });
 
 }, 0);
