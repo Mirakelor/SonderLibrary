@@ -7,7 +7,7 @@ tags:
 - Webmention
 title: Shoka:+Webmention
 ---
-Thanks❤️🌹😋 For   
+> Thanks❤️🌹😋 For   
 [Webmention Demo](https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/) By WhyYouAre。  
 [IndieWeb, Webmentions](https://kwaa.dev/indieweb) By 藍+85CD。  
 [Webmention](https://kaix.in/0001/webmention/) By dimlau。 
@@ -22,4 +22,4 @@ Thanks❤️🌹😋 For
 
 这个坑就算是填好了😋
 
-测试：https://whyouare111.github.io/hexo-icarus-showcase/2021/02/02/webmention-demo/
+2023/4/16: 彻底解决，通过修改主题文件，解决将站外链接全部Base64化导致Webmention无法识别的问题，同时采用www.webmention.app提供的服务自动进行发送
