@@ -12,22 +12,40 @@
       },time);
     }
     sleep(fun,1000);
-    
+    (function (webmentionContext) {
+
+    const url = window.location.href;
+    const webmentionBaseUrl = "https://webmention.io"
+
+    webmentionContext.webmentionsPromise = fetch(webmentionBaseUrl + "/api/mentions.jf2?target=" + encodeURIComponent(url))
+        .then(function (response) {
+            console.log('🥸🤡 Webmention is ready.');
+            return response.json();
+        })
+        .catch(function (ex) {
+            console.error('Oh😭WebMentionERROR!!!' + ex);
+        });
+})(window.webmentionContext);
+    window.addEventListener('load', function () {
+    const webmentionsPromise = window.webmentionContext.webmentionsPromise;
     let html = '';
-    const webmentionsPromise = fetch("https://webmention.io/api/mentions.jf2?target=" + encodeURIComponent(window.location.href))
-      .then(function (response) {
-          console.log('🥸🤡 Webmention is ready.');
-          return response.json();
-      })
-      .catch(function (e) {
-          console.error(e);
-      });
-    html += `<div className="webmention-avatars">`;
-    webmentionsPromise.children.forEach(function (reply) {
-      html += `<a class="avatar-wrapper" href=${reply.author.url} key=${reply.author.name}><image class="wm-avatar" loading="lazy" src=${reply.author.photo != "" ? reply.author.photo: "https://gravatar.loli.net/avatar/72bb6865ec4888f0d8949b71dea2137d?size=80&d=mp"} data-nimg="fill" sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"/></a>`;
-    });
-    html += `</div>`;
-    document.querySelector('#webmentions').innerHTML = html;
+    webmentionsPromise && webmentionsPromise
+        .then(function (data) {
+            
+            const distinctMentions = [
+                ...new Map(data.children.map((item) => [item.author.url, item])).values()].sort((a, b) => new Date(a['wm-received']) - new Date(b['wm-received']));
+
+            html += `<div className="webmention-avatars">`;
+            distinctMentions.forEach(function (reply) {
+                html += `<a class="avatar-wrapper" href=${reply.author.url} key=${reply.author.name}><image class="wm-avatar" loading="lazy" src=${reply.author.photo != "" ? reply.author.photo: "/img/avatar.png"} data-nimg="fill" sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"/></a>`;
+            });
+            html += `</div>`;
+            document.querySelector('#webmentions').innerHTML = html;
+        })
+        .catch(function (ex) {
+            console.error('Oh😭WebMentionERROR!!!' + ex);
+        });
+});
   </script>
 {%- endif %}
 {% endmacro %}
