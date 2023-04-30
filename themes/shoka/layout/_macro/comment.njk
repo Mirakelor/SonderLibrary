@@ -23,7 +23,7 @@
           console.error(e);
       });
     html += `<div className="webmention-avatars">`;
-    webmentionsPromise.forEach(function (reply) {
+    webmentionsPromise.children.forEach(function (reply) {
       html += `<a class="avatar-wrapper" href=${reply.author.url} key=${reply.author.name}><image class="wm-avatar" loading="lazy" src=${reply.author.photo != "" ? reply.author.photo: "https://gravatar.loli.net/avatar/72bb6865ec4888f0d8949b71dea2137d?size=80&d=mp"} data-nimg="fill" sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"/></a>`;
     });
     html += `</div>`;
