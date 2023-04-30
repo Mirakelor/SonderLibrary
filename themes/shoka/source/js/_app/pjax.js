@@ -109,6 +109,7 @@ const siteInit = function () {
             selectors: [
               'head title',
               '.languages',
+              '#webmentions',
               '.pjax',
               'script[data-config]'
             ],
