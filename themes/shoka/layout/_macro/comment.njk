@@ -22,13 +22,12 @@
       .catch(function (e) {
           console.error(e);
       });
-    const distinctMentions = [
-      ...new Map(webmentionsPromise.children.map((item) => [item.author.url, item])).values()].sort((a, b) => new Date(a['wm-received']) - new Date(b['wm-received']));
     html += `<div className="webmention-avatars">`;
-    distinctMentions.forEach(function (reply) {
+    webmentionsPromise.forEach(function (reply) {
       html += `<a class="avatar-wrapper" href=${reply.author.url} key=${reply.author.name}><image class="wm-avatar" loading="lazy" src=${reply.author.photo != "" ? reply.author.photo: "https://gravatar.loli.net/avatar/72bb6865ec4888f0d8949b71dea2137d?size=80&d=mp"} data-nimg="fill" sizes="(max-width: 768px) 100vw,(max-width: 1200px) 50vw, 33vw"/></a>`;
     });
     html += `</div>`;
+    document.querySelector('#webmentions').innerHTML = html;
   </script>
 {%- endif %}
 {% endmacro %}
